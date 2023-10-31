@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  
-  <title>Parties Happening</title>
-</head>
-<body>
-  <form>
-
-  </form>
-</body>
-<script src="party.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parties</title>
+    <script defer src="party.js"></script>
+  </head>
+  <body>
+    <h1>Parties</h1>
+    <form id="addParty">
+      <label>
+        Name
+        <input type="text" name="name" />
+      </label>
+      <label>
+        Description
+        <input type="text" name="description" />
+      </label>
+      <label>
+        Image URL
+        <input type="text" name="imageUrl" />
+      </label>
+      <button>Add Party</button>
+    </form>
+    <ul id="Parties"></ul>
+  </body>
 </html>
